@@ -1,1 +1,4 @@
-const foo = propertySet('dataCenterKey', '3h2k1hj32kl2kjh32lkj4h32')
+const foo = propertySet(
+  "awsSecretKey",
+  "7JyrN0rk23B7bErD88eg8IfhYjAYdFJlhCbKEo6A"
+);
