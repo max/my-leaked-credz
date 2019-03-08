@@ -4,5 +4,5 @@ workflow "find me secrets" {
 }
 
 action "secrets audit" {
-  uses = "./.github/secret-audit
+  uses = "./.github/secret-audit"
 }
