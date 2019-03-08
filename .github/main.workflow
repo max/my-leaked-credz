@@ -4,5 +4,5 @@ workflow "find me secrets" {
 }
 
 action "secrets audit" {
-  uses = "andmyhacks/trufflehog"
+  uses = "docker://andmyhacks/trufflehog"
 }
