@@ -1,8 +1,8 @@
-workflow "find me secrets" {
+workflow "Find Secrets" {
   on = "push"
-  resolves = "secrets audit"
+  resolves = ["max/secret-scan"]
 }
 
-action "secrets audit" {
-  uses = "./.github/secret-audit"
+action "max/secret-scan" {
+  uses = "max/secret-scan@master"
 }
