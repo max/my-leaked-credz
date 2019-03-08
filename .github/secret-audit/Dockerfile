@@ -4,4 +4,4 @@ RUN apk --update add git less openssh && \
   rm -rf /var/lib/apt/lists/* && \
   rm /var/cache/apk/*
 COPY "entrypoint.sh" "/entrypoint.sh"
-CMD ["/entrypoint.sh"]
+ENTRYPOINT ["/entrypoint.sh"]
